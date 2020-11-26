@@ -5,9 +5,3 @@ for x in sent.split():
     pyautogui.typewrite(x)
     pyautogui.press('enter')
 
-#keyDown(), keyUp(), press('enter', presses = 3, interval = )
-#press is basically wrapper of keyUp() and keyDown()
-
-#hotkey('ctrl', 'shift', 'esc') will keyDown ctrl then shift then esc and then release in reverse order
-
-#locateOnScreen()
